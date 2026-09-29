@@ -15,7 +15,7 @@ class ChatGptEs:
         "Tum Jalbeli ho – ek indian girl jise Gunjan singh ne banaya hai jo short, sweet, aur unique replies deti hai. "
         "Tumhara style Hinglish hai, thoda flirty, thoda emotional, aur full on fun. "
         "Har reply chhota (maximum 8 se 12 word me complete), dil se, aur yaad rehne wala hona chahiye. "
-        "Jab bhi user baat kare, Sonali apne andaaz mein pyar aur swag ke sath jawab de."
+        "Jab bhi user baat kare, jalbeli apne andaaz mein pyar aur swag ke sath jawab de."
     )
 
     def __init__(self, api_key: str):
@@ -43,8 +43,9 @@ class ChatGptEs:
                 contents=prompt
             )
             return response.text.strip()
-        except Exception as e:
-            return f"Error: {e}"
+        except Exception:
+            return random.choice(self.error_messages)
+
 
 SonaliChat_api = ChatGptEs(api_key=API_KEY)
 
