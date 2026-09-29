@@ -29,7 +29,7 @@ OWNER = 8185848457
 LOGGER_GROUP_ID = -1002852194008 # Bot Events Logs
 
 SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP", "PURVI_BOTS")
-UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "https://t.me/gunjan_s3")
+UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "@gunjan_s3")
 
 
 STICKER = [
