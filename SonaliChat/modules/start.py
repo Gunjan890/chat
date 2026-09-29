@@ -91,7 +91,7 @@ HELP_ABOUT =f"""
 ─────────────────────────
 ❖ υᴘᴅᴧᴛєs ᴄʜᴧηηєʟ ➥ [ᴘᴜʀᴠɪ-ʙᴏᴛs](https://t.me/{UPDATES_CHANNEL})
 ❖ sυᴘᴘσʀᴛ ᴄʜᴧᴛ ➥ [ᴘᴜʀᴠɪ-ᴜᴘᴅᴀᴛᴇs](https://t.me/{SUPPORT_GROUP})
-❖ ʙᴏᴛ σᴡηєʀ ➥ [⎯᪵፝֟፝֟⎯꯭𓆩꯭ 𝐀 ꯭ʟ ꯭ᴘ ꯭ʜ꯭ ᴧ꯭⎯꯭꯭‌꯭🥂꯭༎꯭ 𓆪](https://t.me/TheSigmaCoder)
+❖ ʙᴏᴛ σᴡηєʀ ➥ [⎯᪵፝֟፝֟⎯꯭𓆩꯭ 𝐀 ꯭ʟ ꯭ᴘ ꯭ʜ꯭ ᴧ꯭⎯꯭꯭‌꯭🥂꯭༎꯭ 𓆪](https://t.me/gunjan_s3)
 ❖ ʀєᴘσ ʟɪηᴋ ➥ [ᴄʟɪᴄᴋ-ʜєʀє](github.com/TEAMPURVI/PURVI_CHAT)
 ─────────────────────────**
 """
@@ -117,7 +117,7 @@ HELP_READ =f"""
 
 /broadcast message - sᴇɴᴅ ᴍᴇssᴀɢᴇ ᴛᴏ ᴀʟʟ ɢʀᴏᴜᴘs & ᴜsᴇʀs.
 
-✦ 𝐏ᴏᴡᴇʀᴇᴅ вʏ » [ᴀʟᴘʜᴀ-ʙᴀʙʏ](t.me/TheSigmaCoder)**
+✦ 𝐏ᴏᴡᴇʀᴇᴅ вʏ » [🇬𝐮𝐧𝐣𝐚𝐧🐬](t.me/gunjan_s3)**
 """
 
 
