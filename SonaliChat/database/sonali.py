@@ -8,6 +8,7 @@
 
 import random
 from google import genai
+from google.genai import types
 from config import API_KEY 
 
 class ChatGptEs:
@@ -39,8 +40,13 @@ class ChatGptEs:
         try:
             prompt = f"{self.SYSTEM_PROMPT}\nUser: {message}\nSonali:"
             response = self.client.models.generate_content(
-                model="gemini-3.5-flash",
-                contents=prompt
+                model="gemini-1.5-flash",
+                contents=prompt,
+                config=types.GenerateContentConfig(
+                    function_calling_config=types.FunctionCallingConfig(
+                        mode=types.FunctionCallingMode.NONE
+                    )
+                )
             )
             return response.text.strip()
         except Exception as e:
