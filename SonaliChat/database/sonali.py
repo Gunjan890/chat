@@ -8,7 +8,6 @@
 
 import random
 from google import genai
-from google.genai import types
 from config import API_KEY 
 
 class ChatGptEs:
