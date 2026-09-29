@@ -18,7 +18,7 @@ BOT_TOKEN = getenv("BOT_TOKEN", None)
 OWNER_ID = int(getenv("OWNER_ID", None))
 MONGO_URL = getenv("MONGO_URL", None)
 
-API_KEY = getenv("API_KEY", ", ")
+API_KEY = getenv("API_KEY", "")
 # Gen A  Fresh Api Key ( https://aistudio.google.com/app/apikey )
 
 AUTH_CHANNEL = int(getenv("AUTH_CHANNEL", None)) # Fsub Channel Id
