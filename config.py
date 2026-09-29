@@ -25,7 +25,7 @@ AUTH_CHANNEL = int(getenv("AUTH_CHANNEL", None)) # Fsub Channel Id
 FSUB = getenv("FSUB", True) # Promote Bot Admin on Your Channel (Fsub Channel Id Channel ) 
 
 OWNER_ID = int(getenv("OWNER_ID", None))
-OWNER = 7473021518
+OWNER = 8185848457
 LOGGER_GROUP_ID = -1002852194008 # Bot Events Logs
 
 SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP", "PURVI_BOTS")
