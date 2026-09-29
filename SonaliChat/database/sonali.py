@@ -43,8 +43,8 @@ class ChatGptEs:
                 contents=prompt
             )
             return response.text.strip()
-        except Exception:
-            return random.choice(self.error_messages)
+                except Exception as e:
+            return f"Error: {e}"
 
 
 SonaliChat_api = ChatGptEs(api_key=API_KEY)
