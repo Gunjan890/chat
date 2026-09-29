@@ -40,12 +40,7 @@ class ChatGptEs:
             prompt = f"{self.SYSTEM_PROMPT}\nUser: {message}\nSonali:"
             response = self.client.models.generate_content(
                 model="gemini-1.5-flash",
-                contents=prompt,
-                config=types.GenerateContentConfig(
-                    function_calling_config=types.FunctionCallingConfig(
-                        mode=types.FunctionCallingMode.NONE
-                    )
-                )
+                contents=prompt
             )
             return response.text.strip()
         except Exception as e:
